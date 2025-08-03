@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevHabit.Api", "DevHabit.Api\DevHabit.Api.csproj", "{9C9D10F7-CD3E-40C6-B28C-0D350AB4C346}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{81C65A32-440D-46CE-98C8-BC278E45AF96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{54785844-30DE-4C69-89B6-E6D180AE8B04}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{020D53BF-5638-4FE0-A265-38586FF610F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C9D10F7-CD3E-40C6-B28C-0D350AB4C346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C9D10F7-CD3E-40C6-B28C-0D350AB4C346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C9D10F7-CD3E-40C6-B28C-0D350AB4C346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C9D10F7-CD3E-40C6-B28C-0D350AB4C346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020D53BF-5638-4FE0-A265-38586FF610F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020D53BF-5638-4FE0-A265-38586FF610F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020D53BF-5638-4FE0-A265-38586FF610F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020D53BF-5638-4FE0-A265-38586FF610F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C9D10F7-CD3E-40C6-B28C-0D350AB4C346} = {81C65A32-440D-46CE-98C8-BC278E45AF96}
+	EndGlobalSection
+EndGlobal

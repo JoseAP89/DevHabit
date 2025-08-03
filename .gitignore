@@ -1,0 +1,151 @@
+# General
+*.swp
+*.swo
+*.log
+*.bak
+*.tmp
+*.DS_Store
+*.vs
+*.vscode
+*.idea
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.pidb
+*.ncrunchsolution
+*.ncrunchproject
+Thumbs.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+# Docker
+docker-compose.*.yml
+docker-compose.override.yml
+**/.dockerignore
+**/.env
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node/React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+dist/
+build/
+.cache/
+.parcel-cache/
+.next/
+out/
+storybook-static/
+
+# .NET
+**/bin/
+**/obj/
+**/TestResults/
+*.pdb
+*.userprefs
+*.nupkg
+*.dotCover
+*.testadapter.json
+*.coverage
+coverage.*
+*.opencover.xml
+*.vsix
+*.msi
+*.exe
+*.dll
+*.min.*
+appsettings.*.json
+appsettings.Development.json
+appsettings.Local.json
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.VC.opendb
+
+# Azure Functions
+func-debug/
+
+# NuGet
+**/packages/
+!.nuget/NuGet.exe
+nuget.exe
+
+# MSBuild
+*.msbuild.binlog
+
+# SQL Server
+*.mdf
+*.ldf
+
+# Redis
+*.rdb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE - JetBrains
+.idea/
+*.iml
+
+# Performance logs
+*.csv
+
+# Local History for Visual Studio
+.history/
+
+# Backup folder for Package Reference Convert tool in Visual Studio 2017
+MigrationBackup/
+
+# End of https://www.toptal.com/developers/gitignore/api/dotnet,react,visualstudio,visualstudiocode,node,docker
+
+.containers
+
